@@ -124,7 +124,7 @@ section {
 #home-slider {
   overflow: hidden;
   position: relative;
-  height: 800px;
+  min-height: 800px;
 }
 
 #home-slider .caption {
@@ -134,7 +134,6 @@ section {
   left: 0;
   right: 0;
   text-align: center;
-  /*text-transform: uppercase;*/
   z-index: 15;
   font-size: 18px;
   font-weight: 300;
@@ -336,22 +335,23 @@ section {
 /*************************
 ********About CSS*******
 **************************/
-#about-us {
-  background-image: url(../images/about-bg.jpg);
-  padding: 60px 0;
+#formation {
+  /*background-image: url(../images/about-bg.jpg);*/
+  padding: 80px 0;
+  color: #888;
 }
 
-#about-us h2 {
+#formation h2 {
   margin-top: 0;
-  color: #fff;
+  color: #999;
 }
 
-#about-us .lead {
+#formation .lead {
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-#about-us h1 {
+#formation h1 {
   margin-bottom: 30px;
 }
 
