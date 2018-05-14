@@ -91,7 +91,7 @@ section {
 }
 
 .heading {
-  padding-bottom:90px;
+  padding-bottom:40px;
 }
 
 .preloader {
@@ -124,7 +124,7 @@ section {
 #home-slider {
   overflow: hidden;
   position: relative;
-  min-height: 800px;
+  /*height: 800px;*/
 }
 
 #home-slider .caption {
@@ -291,7 +291,7 @@ section {
 }
 
 /*************************
-********Service CSS*******
+********becode CSS*******
 **************************/
 
 .service-icon {
@@ -333,12 +333,13 @@ section {
 }
 
 /*************************
-********About CSS*******
+********formation CSS*******
 **************************/
 #formation {
   /*background-image: url(../images/about-bg.jpg);*/
   padding: 80px 0;
   color: #888;
+  background-color: #F6F6F6;
 }
 
 #formation h2 {
