@@ -34,7 +34,10 @@
 
 .panel-body{
 	text-align: left;
-  color: #17242F;
+    color: #17242F;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 1.1em;
 }
 
 #formation .panel-body{

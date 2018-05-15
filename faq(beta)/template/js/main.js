@@ -7,8 +7,9 @@ jQuery(function($) {
 	});
 
 	//#main-slider
-	var slideHeight = $(window).height();
+	var slideHeight = $('#home-slider').height();
 	$('#home-slider .item').css('height',slideHeight);
+
 
 	$(window).resize(function(){'use strict',
 		$('#home-slider .item').css('height',slideHeight);
@@ -29,7 +30,7 @@ jQuery(function($) {
 	});
 
 	$('.navbar-collapse ul li a').on('click', function() {
-		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
+		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 2000);
 		return false;
 	});
 
@@ -54,7 +55,7 @@ jQuery(function($) {
 	};
 
 	$('#tohash').on('click', function(){
-		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
+		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 2000);
 		return false;
 	});
 
