@@ -130,7 +130,7 @@ section {
 #home-slider {
   overflow: hidden;
   position: relative;
-  /*height: 800px;*/
+  height: 600px;
 }
 
 #home-slider .caption {
