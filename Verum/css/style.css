@@ -79,8 +79,13 @@ hr {
 
 /*header*/
 #header{
-	border: 1px solid red;
   height: 500px;
+	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background-color: #7bc3d1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 /* Navigation */
@@ -92,6 +97,8 @@ hr {
 	top: 0;
 	width: 100%
 }
+
+
 .navbar-custom {
 	margin-bottom: 0;
 	background-color: #121d1f;
@@ -179,15 +186,61 @@ hr {
 	padding: 30px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #7bc3d1;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	top: 0;
+	border-bottom: 0;
+	left: 0;
+  right: 0;
+  background: rgba(0,0,0,.7);
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
+}
+
+#Header .caption{
+	position: absolute;
+  top: 20%;
+  /*margin-top: -104px;*/
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 15;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+	top: 20%;
+}
+
+#header .caption h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#header .caption p{
+  font-size: 1.5em;
+  line-height: 1.75em;
+  text-align: left;
+  color: #999;
+}
+
+.caption .btn-start {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding:14px 40px;
+  border: 1px solid #6e6d6c;
+  border-radius: 4px;
+}
+
+.caption .btn-start:hover {
+  color: #fff
+}
+
+.logo-becode{
+}
+
+.header-desc{
 }
 /* Becode Section */
 #becode {
