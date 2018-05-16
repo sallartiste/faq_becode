@@ -130,7 +130,7 @@ section {
 #home-slider {
   overflow: hidden;
   position: relative;
-  height: 750px;
+  height: 600px;
 }
 
 #home-slider .caption {
@@ -194,7 +194,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+  background: red;
 }
 
 .carousel-fade .carousel-inner .active {

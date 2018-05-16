@@ -28,7 +28,7 @@
 }
 
  .jag-faq-theme6 .jag-faq-title,
- .jag-faq-theme8 .jag-faq-title{
+ .jag-faq-theme8 .jag-faq-title {
     background: #f8f8f8;
 
 }
@@ -42,14 +42,15 @@
 	list-style: initial;
 }
 
-#formation .panel-body
-#resume .panel-body{
+#formation .panel-body,
+#resume .panel-body {
 	background-color: #f8F8F8;
 }
 
-#formation .panel
-#resume .panel{
+#formation .panel,
+#resume .panel {
 	background-color: inherit;
+	margin: 0 100px;
 }
 
 /*Default Theme color*/
