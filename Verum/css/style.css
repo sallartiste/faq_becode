@@ -235,7 +235,9 @@ hr {
 
 .caption .btn-start:hover {
   color: #fff
+	background-color: red;
 }
+
 
 .logo-becode{
 }
