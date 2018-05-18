@@ -138,7 +138,7 @@ hr {
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #027db3;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -156,12 +156,11 @@ hr {
 	padding: 10px 20px;
 	margin: 0;
 	font-size: 16px;
-	border-radius: 0;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+	background-color: rgba(18, 29, 31, 0.7);
+	border-color: #027db3;
 }
 .btn-primary {
 	color: #fff;
@@ -192,52 +191,33 @@ hr {
   right: 0;
   background: rgba(0,0,0,.7);
 }
+
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
 
-#Header .caption{
-	position: absolute;
-  top: 20%;
-  /*margin-top: -104px;*/
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 15;
-  font-size: 18px;
-  font-weight: 300;
-  color: #fff;
-	top: 20%;
-}
 
 #header .caption h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
+#header .caption span{
+	color: #027db3;
+}
+
 #header .caption p{
-  font-size: 1.5em;
-  line-height: 1.75em;
+  font-size: 1.3em;
+  line-height: 1.6em;
   text-align: left;
   color: #999;
 }
 
-.caption .btn-start {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-  padding:14px 40px;
-  border: 1px solid #6e6d6c;
-  border-radius: 4px;
+#header .emily{
+	margin-top: 8%;
 }
-
-.caption .btn-start:hover {
-  color: #fff
-	background-color: red;
-}
-
 
 .logo-becode{
 }
