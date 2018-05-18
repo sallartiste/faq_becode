@@ -493,6 +493,10 @@ section {
 	.cont_ns .btn-default{
 		margin: 0 auto;
 	}
+
+	#header .intro{
+		padding: 10px;
+	}
 }
 
 @media(min-width:992px) {
