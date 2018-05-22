@@ -149,6 +149,10 @@ hr {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
+
+.navbar-brand{
+	margin-top: -13px;
+}
 .btn-default {
 	color: #fff;
 	background-color: transparent;
@@ -230,7 +234,7 @@ hr {
 	background: #fff;
 }
 #becode .about-text {
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 #becode img {
 	border-radius: 50%;
