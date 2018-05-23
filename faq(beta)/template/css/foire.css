@@ -71,3 +71,9 @@
 .jag-faq-theme6.jag-faq-theme-becode .jag-faq-title{
 	border-left-color: #17242F;
 }
+
+@media (max-width: 767px){
+	.panel-body {
+		padding-left: 1px;
+  }
+}

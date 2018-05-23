@@ -268,34 +268,10 @@ hr {
 	font-size: 20px;
 	padding: 5px;
 }
-/* Achivements Section */
-#achievements {
-	padding: 100px 0;
-	background: #7bc3d1;
-}
-#achievements h2 {
-	color: #fff;
-}
-#achievements hr {
-	background: rgba(255,255,255,0.3);
-}
-.achievement-box h4 {
-	color: #fff;
-	font-size: 20px;
-	font-weight: 400;
-	margin-left: 5px;
-}
-.achievement-box span.count {
-	font-size: 52px;
-	font-weight: 600;
-	display: block;
-	color: #121d1f;
-	padding: 0;
-	margin: 0;
-}
+
 /* Resume Section */
 #resume {
-	padding: 80px 0;
+	padding-top: 80px;
 	background: #f6f6f6;
 }
 
@@ -487,7 +463,8 @@ section {
 
 	#header .intro .caption h1{
 		text-align: center;
-		font-size: 1.7em;
+		font-size: 2em;
+		line-height: 1.8em;
 	}
 
 	#header .intro .caption p{
